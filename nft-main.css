@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: hsl(217, 54%, 11%);
+    /* font-size: ; */
+}
+
+article {
+    width: 320px;
+    height: 570px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px hsl(216, 50%, 13%);
+}
+
+.main_image {
+    position: relative;
+    width: 284px;
+    height: 284px;
+    margin: 18px 18px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.main_image img {
+    width: 284px;
+    height: 284px;
+}
+
+.description {
+    margin: 13px 18px;
+    height: 100px;
+    width: 284px;
+    }
+
+.description h1 {
+    font-weight: 600;
+    font-family: Outfit, sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+.description p {
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    height: 100 px;
+    width: 284px;
+    margin: 25px 18px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    color: hsl(178, 100%, 50%); 
+    font-size: 15px;
+}
+
+.price img {
+    padding-right: 5px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    width: 284px;
+    margin: 0px 18px;
+    height: 1px;
+    border: 0;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 284px;
+    height: 86px;
+    margin-left: 18px;
+}
+
+.creator p {
+    display: flex;
+    align-items: center;
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator img {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.creator span {
+    align-items: center;
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding-left: 3px;
+}
+
+
